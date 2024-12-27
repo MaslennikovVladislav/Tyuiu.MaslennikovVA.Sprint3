@@ -13,8 +13,8 @@ namespace Tyuiu.MaslennikovVA.Sprint3.Task6.V23.Test
         {
             DataService ds = new DataService();
 
-            int startValue = 10;
-            int stopValue = 15;
+            int startValue = 18;
+            int stopValue = 28;
             int res = ds.GetSumTheDivisors(startValue, stopValue);
             int wait = 10;
             Assert.AreEqual(wait, res);
