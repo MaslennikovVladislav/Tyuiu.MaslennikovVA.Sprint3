@@ -15,7 +15,7 @@ namespace Tyuiu.MaslennikovVA.Sprint3.Task1.V19.Lib
             double multiSeries = 1;
             while (startValue <= stopValue)
             {
-                multiSeries = (multiSeries * Math.Cos(value)) + (startValue / 4);
+                multiSeries = multiSeries * (Math.Cos(value) + (startValue / 4));
                 startValue++;
 
             }
